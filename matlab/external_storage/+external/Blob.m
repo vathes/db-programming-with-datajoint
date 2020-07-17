@@ -1,4 +1,4 @@
-%{
+ %{
 # This table is a toy example of how to save a blob field into the external location
 id:      int
 -----
