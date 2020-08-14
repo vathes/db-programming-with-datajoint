@@ -15,8 +15,8 @@ dj.config('databasePassword', 'password')
 % set up an external location for calcium imaging, which is named as |imaging|.
 
 imaging_storage = struct('protocol', 'file',...
-                         'location', '~/imaging')
-dj.config('stores.imaging') = imaging_storage
+                         'location', '~/imaging');
+dj.config('stores.imaging', imaging_storage)
 %% 
 % Now the location has already set up. We could check the storage location 
 % by:
